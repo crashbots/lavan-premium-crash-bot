@@ -189,4 +189,4 @@ async def spamhook(ctx):
       except:
         continue
 	
-bot.run("")
+bot.run(open("token.txt").read())
